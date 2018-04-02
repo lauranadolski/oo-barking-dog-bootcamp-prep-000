@@ -2,7 +2,7 @@
 
 
 class Dog
-  
+
   def name=(dogs_name)
     @name = dogs_name
   end
@@ -11,8 +11,8 @@ class Dog
     @name
   end
  
- def bark
-   puts "woof!"
- end
+  def bark
+    puts "woof!"
+  end
   
 end
